@@ -10,7 +10,7 @@ import { Card, CardHeader } from './ui/card'
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 
 interface ResumeCardProps {
-   logoUrl: string
+   logoUrl?: string
    altText: string
    title: string
    subtitle?: string

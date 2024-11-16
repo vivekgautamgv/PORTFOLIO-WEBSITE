@@ -86,8 +86,8 @@ export default function Page() {
                   >
                      <ResumeCard
                         key={education.school}
-                        href={education.href}
-                        logoUrl={education.logoUrl}
+                        // href={education.href}
+                        // logoUrl={education.logoUrl}
                         altText={education.school}
                         title={education.school}
                         subtitle={education.degree}
@@ -173,7 +173,7 @@ export default function Page() {
                      </div>
                   </div>
                </BlurFade>
-               <BlurFade delay={BLUR_FADE_DELAY * 14}>
+               {/* <BlurFade delay={BLUR_FADE_DELAY * 14}>
                   <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
                      {DATA.hackingEvents.map((project, id) => (
                         <BlurFade
@@ -191,7 +191,7 @@ export default function Page() {
                         </BlurFade>
                      ))}
                   </ul>
-               </BlurFade>
+               </BlurFade> */}
             </div>
          </section>
          <section id="contact">
